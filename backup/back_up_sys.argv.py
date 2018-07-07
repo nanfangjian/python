@@ -35,3 +35,4 @@ else:
     #判断是否备份部分文件
     if os.path.exists(tar_backup_name) & flag==0:
          print('%s 已经创建,未全部备份成功.'%tar_backup_name)
+            
